@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css\styles.css">
   </head>
   <body>
     <ul>
       <li><a href="https://github.com/Opensourcedeveloper1992">GitHub</a></li>
       <li><a href="https://twitter.com/davidpegueros8">Twitter</a></li>
     </ul>
-    <form action="">
+    <form action="mailto:davidpegueros@gmail.com" method="post" enctype="text/plain">
       <label for="">Your Name</label>
-      <input type="text" />
-      <input type="color" /><br />
-      <label for="">Password:</label>
-      <input type="password" />
+      <input type="text" name="yourName"/>
+      <br />
+      <label for="">Your Email:</label>
+
+      <input type="email" name="yourEmail" />
+      <br />
+      <label for="">Your Message:</label>
+      <br />
+      <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+      <br />
 
       <input type="submit" />
     </form>
